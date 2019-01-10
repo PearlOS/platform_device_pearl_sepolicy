@@ -1,13 +1,13 @@
 #
 # This policy configuration will be used by all products that
-# inherit from Lean
+# inherit from pearl
 #
 
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
-    device/lean/sepolicy/common/public
+    device/pearl/sepolicy/common/public
 
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
-    device/lean/sepolicy/common/private
+    device/pearl/sepolicy/common/private
 
 BOARD_SEPOLICY_DIRS += \
-    device/lean/sepolicy/common/vendor
+    device/pearl/sepolicy/common/vendor
